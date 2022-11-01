@@ -1,0 +1,41 @@
+body{
+    --color-alert:#FF5733
+}
+
+.number{
+    background-color: var(--color-alert);
+    
+
+    border-radius: 5px;
+    margin: 20px 0;
+    width: fit-content;
+    padding: 0.375rem 0.75rem;
+    cursor: pointer;
+    transition: all 0.3s ;
+    color: white;
+    
+    
+    
+}
+.number:hover{
+    background-color: white;
+    transition: all 0.3s ;
+  color: black;
+}
+.col-3{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+   
+} 
+.container{
+    border: solid 1px black;
+}
+#display{
+    height: 50px;
+}
+.col-3,.col-12{
+    display: flex;
+    justify-content: center;
+
+}

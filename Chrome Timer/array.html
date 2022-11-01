@@ -1,0 +1,62 @@
+<html>
+  <head> </head>
+  <body>
+    <script>
+      //   var x = new String("hello");
+      //   var y = "hello";
+
+      //   var person = {
+      //     firstName: "hamza",
+      //     lastName: "jack",
+      //     age: 20,
+      //     fullName: function () {
+      //       return this.firstName + "" + this.lastName;
+      //     },
+      //   };
+      //   console.log(person.firstName, "we are logging person first name");
+      //   console.log(person.firstName, "we are logging");
+      //   person.firstName = "dave";
+      //   console.log(
+      //     person.firstName,
+      //     "we are logging personfirst name after changing it"
+      //   );
+      //   var person2 = {
+      //     firstName: "hamza",
+      //     lastName: "kane",
+      //     get fullName() {
+      //       return this.firstName + " " + this.lastName;
+      //     },
+      //     set firstNamePersom(firstName) {
+      //       this.firstName = firstName;
+      //     },
+      //     set lastNamePerson(lastName) {
+      //       this.lastName = lastName;
+      //     },
+      //   };
+      //   console.log(person2.fullName);
+      function personConstructor(firstN, lastN, age) {
+        this.firstName = firstN;
+        this.lastName = lastN;
+        this.age = age;
+      }
+
+      var hamza = new personConstructor("hamza", "jack", "25");
+      var jane = new personConstructor("jane", "mont", "30");
+      console.log(hamza.firstName,hamza.lastName,hamza.age );
+      personConstructor.prototype.nationality="british"
+      console.log(hamza.nationality);
+      hamza.nationality="syria";
+      console.log(hamza.nationality)
+      //difine an object
+      //var objectName= {name:"john"}
+
+      //difine an array
+
+      var arrayName= ["hamza","caren","jane"]
+      arrayName.pop();
+      arrayName.push("daniel");
+      console.log(arrayName);
+      console.log(arrayName[0]);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+  <body>
+    <p onclick="setFunctionAlert()">Click me</p>
+    <p id="clickParagraph">click me second</p>
+
+    <form id="Hamza">
+      <input
+        type="text"
+        name="firstName"
+        placeholder="enter name here"
+        id="firstName"
+      />
+
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+  <head>
+    <script>
+      var a = 1;
+      console.log(a);
+      alert(a);
+      document.write(a);
+
+      function hello(userValue) {
+        document.write(userValue);
+      }
+      hello("helloHamza");
+
+      const person = {
+        firstName: "Hamza",
+        age: 28,
+        isAdmin: true,
+      };
+      console.log(person.firstName);
+      console.log(person["isAdmin"]);
+      function setFunctionAlert() {
+        alert("hi");
+      }
+      document.getElementById("clickParagrph"),
+        addEventListener("click", function () {
+          alert("hi");
+        });
+
+      var i = 0;
+      while (i < 10) {
+        console.log("1", i);
+        i = i + 1;
+      }
+      for (var i = 0; i < 10; i++);
+
+      window.addEventListener(
+        "load",
+        function () {
+          document.getElementById("Hamza");
+        },
+        addEventListener("click", function () {
+          alert("error");
+        })
+      );
+
+      document.getElementById("Hamza").onsubmit = function () {
+        var inputValue = document.getElementById("firstName").value;
+
+        alert(inputValue);
+      };
+    </script>
+  </head>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <div id="mylist"></div>
+
+    <script>
+      window.addEventListener("load", (event) => {
+        // Create an "li" node:
+        const node = document.createElement("li");
+
+        // Create a text node:
+        const textnode = document.createTextNode("water");
+
+        //Appen the text node to the "li"node:
+        node.appendChild(textnode);
+        // Append the "li" node to the list:
+        document.getElementById("mylist").appendChild(node);
+      });
+    </script>
+    <script>
+      var x = 5;
+      function testFunction() {
+        let y = 8;
+        var z = 9;
+        console.log(x, "inside x");
+        console.log(y, "inside y");
+      }
+      testFunction();
+
+      // console.log(y, "outside y");
+    </script>
+    <script>
+      var x = 5;
+      var char = "c";
+      var string = "hello world";
+      var boolean = True;
+      var array = ["hamza", "daniel", "jack"];
+      var arrayNum = [3, 5, 2];
+      document.getElementById("string");
+      function addition(a,b)
+      let result= a + b;
+      var result2= 4;
+      if(result===2 && result2===5){
+        return result;
+      } else if(result===10 || result===4){
+      return"hshshshs";
+
+      }else{
+        return boolean;
+      }
+
+      function addition(a, b) {
+        console.log(a);
+        console.log(b);
+        let result = a + b;
+        return result;
+      }
+      var optionOne = addition(5, 4);
+      var optionTwo = addition(6, 8);
+
+      //console.log(y, "outside y");
+      function MyGrade(grade){
+        if (grade<=100 && grade >=90){
+          return "A";
+        } else if (grade<=89 && grade >=80){
+          return "B";
+        } else if (grade<=79 && grade>=70){
+          return "C";
+        } else if (grade<=69 && grade>=60){
+          return "D";
+        } else if (grade>=59){
+          return "F";
+        }
+
+         }
+      function addPlusOne(myNumber){
+       //let  result= myNumber + 1;
+       let result = myNumber++;
+       
+        return result;
+      }
+
+      // it will show 9
+      console.log(optionOne);
+      // it will show 14
+      console.log(optionTwo);
+    </script>
+  </body>
+</html>

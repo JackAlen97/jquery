@@ -1,0 +1,13 @@
+p {
+  color: #ffff;
+  color: rgb(160, 212, 162);
+  color: #2e5780;
+}
+
+input:focus {
+  border-color: red;
+  outline: none;
+  background-color: blue;
+}
+
+

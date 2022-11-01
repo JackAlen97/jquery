@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .class {
+        background-color: aqua;
+      }
+      .thisclass {
+        background-color: black;
+      }
+      #thisID {
+        background-color: blueviolet;
+        display: NONE;
+      }
+      .buttonstyling:hover {
+        border-radius: 65px;
+        height: 70px;
+        transition: all 0.5s;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: rgb(244, 246, 247)">
+    <div class="thisclass"></div>
+    <div class="thisclass"></div>
+    <div id="thisID"></div>
+
+    <button class="buttonstyling">PRESS ME</button>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">one</div>
+        <div class="col-sm">one</div>
+        <div class="col-sm">one</div>
+        <div class="col-sm">one</div>
+        <div class="col-sm">one</div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+        <div class="col-md-3 offset-md-3">.col-md-3 .offset-md-3</div>
+
+        <div class="row">
+          <div class="col-md-6 offset-md-3">.col-md-6 .offset-md-3</div>
+        </div>
+      </div>
+
+      <div class="btn btn-primary">this is a button</div>
+
+      <h1>
+        Example heading <span class="badge badge-secondary">this is badge</span>
+      </h1>
+
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Left</button>
+        <button type="button" class="btn btn-secondary">Middle</button>
+        <button type="button" class="btn btn-secondary">Right</button>
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <a href="male" class="btn btn-primary">male</a>
+        <a href="female" class="btn btn-secondary">female</a>
+      </div>
+      <div
+        class="btn-group"
+        role="group"
+        aria-label="Button group with nested dropdown"
+      >
+        <button type="button" class="btn btn-secondary">1</button>
+        <button type="button" class="btn btn-secondary">2</button>
+
+        <div class="btn-group" role="group">
+          <button
+            id="btnGroupDrop1"
+            type="button"
+            class="btn btn-secondary dropdown-toggle"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            Dropdown
+          </button>
+          <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+            <a class="dropdown-item" href="#">Dropdown link</a>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-ride="carousel"
+      ></div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-10"
+              src="https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?format=jpg&width=960"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-10"
+              src="https://www.zdnet.com/a/img/resize/a0dcec40a8cd8d2e1b3a9e12a05c2819622d20be/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=1200&width=1200"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-10"
+              src="https://www.zdnet.com/a/img/resize/a0dcec40a8cd8d2e1b3a9e12a05c2819622d20be/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=1200&width=1200"
+              alt="Third slide"
+            />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#carouselExampleIndicators"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <!-- Button trigger modal -->
+      <button
+        type="button"
+        class="btn btn-primary"
+        data-toggle="modal"
+        data-target="#exampleModal"
+      >
+        Launch demo modal
+      </button>
+
+      <!-- Modal -->
+      <div
+        class="modal fade"
+        id="exampleModal"
+        tabindex="-1"
+        role="dialog"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

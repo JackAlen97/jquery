@@ -1,0 +1,158 @@
+<html>
+  <head>
+    <tittle>web stack development</tittle>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <style>
+      p {
+        color: red;
+      }
+
+      p:nth-child(4) {
+        color: green;
+      }
+
+      .this-class {
+        background: green;
+      }
+
+      #this-class {
+        background: yellow;
+      }
+
+      input:hover {
+        border-color: blueviolet;
+      }
+
+      input :focus {
+        background-color: blue;
+        border-color: red;
+      }
+
+      a:visited {
+        color: tomato;
+      }
+
+      a:active {
+        color: green;
+      }
+
+      a:hover {
+        color: yellow;
+        transition: all 1s;
+      }
+
+      div > p {
+        background-color: black;
+      }
+
+      p {
+        font-size: 60px;
+        font-family: "Roboto", sans-serif;
+      }
+
+      div {
+        font-family: "Roboto", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>first p</p>
+      <p>this p inside div</p>
+    </div>
+    <div>
+      <a href="http://facebook.com">facebook.com</a>
+      <a href="http://google.com">google.com</a>
+      <p style="color: blue">this is p</p>
+      <p class="this-class">this is p</p>
+      <p id="this-class">this is p</p>
+      <p>this is p</p>
+    </div>
+    <h1>hello</h1>
+    <h2>hello</h2>
+    <h6>hello</h6>
+
+    <div>welcome to the full stack program</div>
+
+    <ol>
+      <li>first</li>
+      <li>second</li>
+      <li>third</li>
+    </ol>
+    <br />
+    <ul>
+      <li>hamza</li>
+      <li>jack</li>
+      <li>jane</li>
+    </ul>
+    <p>this is p</p>
+    <p>welcome to the bootcamp</p>
+    <ol>
+      <li>hello</li>
+      <li>test</li>
+    </ol>
+
+    <a href="http://google.com">externsl link</a>
+    <a href="/index test.html">internal link</a>
+    <img src="../../Downloads/code pic.jpg" />
+
+    <div>
+      <form method="get" .action="#">
+        <label for="firstName"> First Name</label>
+        <input type="text" name="first Name" id="firstName" required />
+        <br />
+        <label for="emailField"> Email</label>
+        <input
+          type="email"
+          name="email"
+          id="emailField"
+          placeholder="enter email here"
+          required
+        />
+        <br />
+        <label for="Mobile">mobile</label>
+        <input type="Mobile" name="Mobile" id="Mobile" required />
+        <br />
+
+        <labor for="CountryID"> Country</labor>
+        <select name="Country" id="CountryID">
+          <option>Lebanon</option>
+          <option>germany</option>
+          <option>france</option>
+          <option>united kingdom</option>
+        </select>
+        <br />
+
+        <input type="radio" name="gender" value="Male" /> Male
+        <input type="radio" name="gender" value="Female" /> Female
+        <br />
+        <input type="checkbox" name="skills" value="skiing" /> skiing
+        <input type="checkbox" name="skills" value="coding" /> coding
+        <br />
+        <input type="reset" />
+
+        <input type="submit" />
+      </form>
+    </div>
+
+    <div>
+      <div>first div</div>
+      <div>second div</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+  <body>
+    <form id="Hamza">
+      <input
+        type="text"
+        name="firstName"
+        placeholder="enter name here"
+        id="firstName"
+      />
+
+      <input type="submit" name="submit" />
+    </form>
+  </body>
+  <script>
+    var p="hello \n hamza" 
+    window.addEventListener("load", function () {
+      document.getElementById("Hamza"),
+        addEventListener("click", function () {
+          alert("error");
+        });
+    });
+
+    document.getElementById("Hamza").onsubmit = function () {
+      var inputValue = document.getElementById("firstName").value;
+
+      if (inputValue !== "") {
+        alert("good");
+      } else {
+        alert("please enter a value");
+      }
+    };
+  </script>
+</html>

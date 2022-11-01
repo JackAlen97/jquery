@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: brown;
+}
+.inputDiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+   
+}
+#tasksInput{
+    width: 60%;
+}
+.button{
+    width: 20%;
+    flex-direction: row;
+  
+    background-color: rgb(92, 3, 19);
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+.taskUL{ 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.close{
+    float: right;
+    cursor: pointer;
+    background-color: aliceblue;
+    width: 60px;
+    line-height: 60px;
+    height: 60px;
+    text-align: center;
+}
+
+.taskUL li:nth-child(odd){
+    color:black;
+    background-color:rgb(148, 91, 91);
+
+}
+.taskUL li{
+   
+    background-color: rgb(125, 122, 122);
+    height: 60px;
+    position: relative;
+     
+    
+    line-height: 60px;
+   
+}
+.completed{
+    text-decoration: line-through;
+    padding-left: 40px;
+    
+}
+li.completed::before{
+content: '';
+position: absolute;
+border-color: black;
+border-style: solid;
+border-width: 0 2px 2px 0;
+top: 17px;
+left: 22px;
+height: 16px;
+transform: rotate(45deg);
+width: 7px;
+}
+body{
+    margin: 0;
+}
