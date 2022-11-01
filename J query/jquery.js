@@ -18,6 +18,7 @@ $("#idname");
 //this is the normaal javascript
 var button = document.getElementById("idname");
 
+// oiho
 button.addEventListener("click", function () {
   //cocede here
 });
